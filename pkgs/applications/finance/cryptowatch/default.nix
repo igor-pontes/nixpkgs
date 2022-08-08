@@ -15,7 +15,7 @@
 
 stdenv.mkDerivation rec {
   pname = "cryptowatch-desktop";
-  version = "0.5.0";
+  version = "0.5.1";
 
   src = fetchurl {
     url = "https://cryptowat.ch/desktop/download/linux/${version}";
