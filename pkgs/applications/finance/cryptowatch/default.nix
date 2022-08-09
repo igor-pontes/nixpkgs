@@ -15,11 +15,11 @@
 
 stdenv.mkDerivation rec {
   pname = "cryptowatch-desktop";
-  version = "0.5.0";
+  version = "0.5.1";
 
   src = fetchurl {
     url = "https://cryptowat.ch/desktop/download/linux/${version}";
-    sha256 = "0lr5fsd0f44b1v9f2dvx0a0lmz9dyivyz5d98qx2gcv3jkngw34v";
+    sha256 = "sha256-8ZiBI5bjb58zjTqO7yqW4WtPFdkadTAbV+vzkshGKj0=";
   };
 
   unpackPhase = "unzip $src";
